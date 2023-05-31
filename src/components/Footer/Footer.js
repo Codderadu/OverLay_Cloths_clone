@@ -1,5 +1,5 @@
 import React from "react";
-import {Link, useNavigate} from "react-router-dom"
+import {Link} from "react-router-dom"
 import "./Footer.scss"
 import {FaFacebookSquare} from "react-icons/fa"
 import {FaTwitterSquare} from "react-icons/fa"
