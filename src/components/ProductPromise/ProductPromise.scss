@@ -1,0 +1,65 @@
+.ProductPromise {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 30px;
+  .container {
+    display: flex;
+    gap: 20px;
+    .services{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      margin: 20px;
+      text-align: center;
+
+      img{
+        width: 50px;
+        height: 50px;
+      }
+      h5{ 
+        font-weight: 700;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .ProductPromise {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 30px;
+    .container {
+      display: flex;
+      flex-direction: column;
+      gap:15px;
+      .services{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin: 20px;
+        text-align: center;
+  
+        img{
+          width: 50px;
+          height: 50px;
+        }
+        h5{ 
+          font-weight: 700;
+        }
+      }
+    }
+  }
+  
+}

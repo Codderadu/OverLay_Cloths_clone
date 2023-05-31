@@ -1,0 +1,286 @@
+.Footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 30px;
+    margin-top: 30px;
+    background-color: black;
+    p{
+        color: white;
+       
+       left: 20%;
+    }
+    .container {
+        display: flex;
+        gap: 30px;
+        .About_us{
+            height: 222px;
+            width: 325px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            h4{
+                color: white;
+            }
+            p{
+                color: white;
+                font-size: 15px;
+                line-height: 25px;
+                font-weight: 500;  
+            }
+            .anker-tag{
+                text-decoration: underline;
+                
+                color: white;
+                font-weight: 500;
+                &:hover{
+                    color: rgb(199, 194, 194);
+                }
+            }
+        }
+        .Polices{
+            height: 222px;
+            width: 220px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            h4{
+                color: white;
+            }
+            p{
+                color: white;
+                font-weight: 500;
+            }
+            .All-polices{
+                display: flex;
+                flex-direction: column;
+                line-height: 28px;
+                .anker-tag{
+                    text-decoration: none;
+                    list-style: none;
+                    color: white;
+                    font-weight: 500;
+                    &:hover{
+                        color: rgb(216, 209, 209);
+                    }
+                }
+            }
+        }
+
+        .NEWSLETTER{
+            height: 222px;
+            width: 325px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            h4{
+                color: white;
+            }
+            p{
+                color: white;
+                line-height: 25px;
+                font-weight: 500;
+            }
+            input{
+                height: 52px;
+                padding: 0 18px;
+                font-size: 1rem;
+                color: rgb(83, 82, 82);
+                border: none;
+                border-radius: 3px;
+            }
+        }
+
+        .Follow_us{
+            height: 222px;
+            width: 220px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            h4{
+                color: white;
+            }
+            p{
+                color: white;
+                font-weight: 500;
+            }
+            .spocial-media{
+                display: flex;
+                .media-icons{
+                    width: 55px;
+                    height: 55px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 30px;
+                    color: white;
+                    border-radius: 3px;
+                    
+                .ancker-tag{
+                    text-decoration: none;
+                    list-style: none;
+                    display: flex;
+                    justify-content: center;
+                   
+
+                }
+                   &:hover{
+                    background-color: white;
+                    color: black;
+                   }
+                }
+
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:480px){
+
+    .Footer{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 60px;
+        padding-right: 60px;
+        padding-top: 30px;
+        margin-top: 30px;
+        background-color: black;
+        p{
+            color: white;
+           
+           left: 20%;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            .About_us{
+                height:150px;
+                width: 325px;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+    
+                h4{
+                    color: white;
+                }
+                p{
+                    color: white;
+                    font-size: 15px;
+                    line-height: 25px;
+                    font-weight: 500;  
+                }
+                .anker-tag{
+                    text-decoration: underline;
+                    
+                    color: white;
+                    font-weight: 500;
+                    &:hover{
+                        color: rgb(199, 194, 194);
+                    }
+                }
+            }
+            .Polices{
+                height: 222px;
+                width: 220px;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                h4{
+                    color: white;
+                }
+                p{
+                    color: white;
+                    font-weight: 500;
+                }
+                .All-polices{
+                    display: flex;
+                    flex-direction: column;
+                    line-height: 28px;
+                    .anker-tag{
+                        text-decoration: none;
+                        list-style: none;
+                        color: white;
+                        font-weight: 500;
+                        &:hover{
+                            color: rgb(216, 209, 209);
+                        }
+                    }
+                }
+            }
+    
+            .NEWSLETTER{
+                height: 200px;
+                width: 325px;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                h4{
+                    color: white;
+                }
+                p{
+                    color: white;
+                    line-height: 25px;
+                    font-weight: 500;
+                }
+                input{
+                    height: 52px;
+                    padding: 0 18px;
+                    font-size: 1rem;
+                    color: rgb(83, 82, 82);
+                    border: none;
+                    border-radius: 3px;
+                }
+            }
+    
+            .Follow_us{
+                height: 222px;
+                width: 220px;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                h4{
+                    color: white;
+                }
+                p{
+                    color: white;
+                    font-weight: 500;
+                }
+                .spocial-media{
+                    display: flex;
+                    .media-icons{
+                        width: 55px;
+                        height: 55px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        font-size: 30px;
+                        color: white;
+                        border-radius: 3px;
+                        
+                    .ancker-tag{
+                        text-decoration: none;
+                        list-style: none;
+                        display: flex;
+                        justify-content: center;
+                       
+    
+                    }
+                       &:hover{
+                        background-color: white;
+                        color: black;
+                       }
+                    }
+    
+                }
+            }
+        }
+    }
+
+}
