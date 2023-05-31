@@ -66,6 +66,7 @@
                  width: 280px;
                  p{
                     text-align: center;
+                    font-size: 0.9rem;
                  }
                   
                 }
@@ -121,7 +122,7 @@
     
             .all-products{
                 display: grid;
-                grid-template-columns: auto  ;
+                grid-template-columns: auto auto ;
                 gap: 15px;
                 
           
@@ -133,16 +134,16 @@
                     justify-content: center;
                     gap: 20px;
                     img{
-                        height: 400px;
-                        width: 300px;
-                        border-radius: 5px;
+                        height: 200px;
+                     width: 150px;
+                     border-radius: 5px;
                     }
                     .detail{
                      display: flex;
                      align-items: center;
                      flex-direction: column;
                      gap: 5px;
-                     width: 280px;
+                     width: 150px;
                      p{
                         text-align: center;
                      }
